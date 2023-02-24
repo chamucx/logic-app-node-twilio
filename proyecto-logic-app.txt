@@ -1,0 +1,39 @@
+Tech a usar:
+Azure
+Twilio
+NodeJS
+
+herramientas:
+Azure
+Twilio
+NodeJS
+VSCode
+
+Checklist:
+
+Resource group
+webapp 
+
+Nodejs
+npm init -y
+
+npm install -save express express-upload into-stream dotenv azure-storage
+
+
+PS commands
+Storage Account
+
+New-AzStorageAccount -ResourceGroupName $rgName -Name "---" -SkuName Standard_RAGRS -Location "US" -Kind StorageV2
+
+Container with Azure cli
+
+ az storage container create --account-name "myaccount" --name "mycontainer"
+
+https://github.com/Azure/azure-sdk-for-node
+             
+https://www.npmjs.com/~azure-sdk
+
+https://learn.microsoft.com/es-es/azure/storage/blobs/storage-blob-javascript-get-started?tabs=azure-ad           
+
+
+https://learn.microsoft.com/en-us/azure/storage/blobs/anonymous-read-access-configure?tabs=portal
